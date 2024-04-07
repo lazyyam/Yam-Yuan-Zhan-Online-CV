@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*class selector*/
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1500px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 25px 55px 75px black; /*3D shadow*/
+}
+
+.container .left_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    max-width: 393.66px;
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    max-width: 606.34px;
+}
+
+/*============================================================*/
+.profileDetails
+{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileDetails .myImage
+{
+    position: relative;
+    align-items: center;
+    width: 200px; /*round shape profile pic*/
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileDetails .myImage profile
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.text
+{
+    color: black;
+}
+/*============================================================*/
+/*id selector*/
+.aboutMe ul, .contactInfo ul, .education ul, .interests ul text
+{
+    position: relative;
+}
+
+.aboutMe ul li, .skills ul li, .contactInfo ul li, .education ul li, .curricular ul li, .projects ul li, .experience ul li
+{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+/*============================================================*/
+.contactInfo, .education, .interests, .curricular, .skills
+{
+    padding-top: 5px;
+}
+
+/*============================================================*/
+.interests ul li
+{
+    display: flex;
+    align-items: center;
+}
+
+/*============================================================*/
+.location {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.result {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+
+/*============================================================*/
+.description {
+    text-align: left;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+/*============================================================*/
+.skills .skillsTitle .percentage{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #c5c5c5;
+    display: block;
+    margin-top: 5px;
+    
+}
+
+.skills .skillsTitle .percentage div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(63, 53, 53);
+}
+.subskill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.percentage {
+    max-width: 150px;
+}
+
+/*============================================================*/
+/* Style buttons */
+.btn {
+    background-color: rgb(63, 53, 53);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: rgb(247, 190, 68);
+}
+
+.subject {
+    font-size: 16px;
+}
+
+.learnedSkill {
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+/* from index.html================================= */
+/*id selector*/
+#title-left{
+    color: white;
+    background-color: rgb(63, 53, 53);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-bottom: 2px solid black;*/
+} 
+#title-right{
+    color: white;
+    background-color: rgb(63, 53, 53);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    /*border-bottom: 2px solid black;*/
+} 
+
+#icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: rgb(63, 53, 53);
+    margin-right: 4px;
+}
+
+#icon2{
+    display: inline-block;
+    width: 30px;
+    font-size: 35px;
+    color: rgb(63, 53, 53);
+    margin-right: 18px;
+}
+
+#rectangle {
+    margin-top: 20px;
+    margin-bottom: 33px;
+    width: 0;
+    height: 0;
+    width: 583px;
+    height: 55px;
+    background-color: rgb(63, 53, 53);
+}
+
+#name {
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#course {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(245, 169, 28);
+    font-weight: bold;
+}
+
